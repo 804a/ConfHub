@@ -1,0 +1,51 @@
+.content-block {
+  margin-bottom: 32px;
+}
+
+.cover-hero {
+  display: block;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 16px;
+  background: #e9ecef;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.content-block p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.content-block h2 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  color: #1a1a1a;
+}
+
+.badges-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 720px) {
+  .cover-hero {
+    height: 200px;
+    border-radius: 12px;
+  }
+
+  .content-block h2 {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cover-hero {
+    height: 160px;
+  }
+}
